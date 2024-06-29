@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>Pre entrega Ramirez</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,36 +14,41 @@
     </head>
 
     <body>
+        <main>
     <header>
-        <section>
-            <img class="logo" src="../assets/images/logo-white.svg">
-        </section>
         <NAV>
-            <UL class="white-text">
-                <li><a href="./Home.html">Accueil</a></li>
-                <li><a href="./Apropos.html">A propos</a></li>
-                <li><a href="./Yogaflow.html">Yoga flow</a></li>
-                <li><a href="./Noscours.html">Nos cours</a></li>
-                <li><a href="./Contact.html">Contact</a></li>
+            <section>
+            <div>
+                <img class="logo" src="../assets/images/logo-white.svg">
+            </div>
+            
+            <UL class="white-text" class="nav_links">
+                <li class="grid-item"><a href="./Home.html">Accueil</a></li>
+                <li class="grid-item"><a href="./Apropos.html">A propos</a></li>
+                <li class="grid-item"><a href="./Yogaflow.html">Yoga flow</a></li>
+                <li class="grid-item"><a href="./Noscours.html">Nos cours</a></li>
+                <li class="grid-item"><a href="./Contact.html">Contact</a></li>
             </UL>
+            </section>
         </NAV>
     </header>
 
     <div class="slider">
-        <img src="../assets/images/slider 1.jpg" alt="slider1">
+        <img src="../assets/images/slider 1.jpg" alt="slider1" class="image-slider">
+        <div id="heading-slider">
+            <h1>Cours de Yoga Flow à Aix-en-Provence</h1>
+            <p>Avec nos pratiques dirigées par le cœur, nos outils de pleine conscience et notre soutien affectueux, nous vous offrons 
+               l'espace nécessaire pour apprendre, guérir et grandir pour devenir votre moi le plus authentique.
+            </p>
+            <a href="../pages/Noscours.html">
+        <button class="white-text">Reserverz votre cours
+        </button>
+        </a>
+        </div>
     </div>
-    <div id="slider1">
-        <h1>Cours de Yoga Flow à Aix-en-Provence</h1>
-        <p>Avec nos pratiques dirigées par le cœur, nos outils de pleine conscience et notre soutien affectueux, nous vous offrons 
-           l'espace nécessaire pour apprendre, guérir et grandir pour devenir votre moi le plus authentique.
-        </p>
-        <a href="../pages/Noscours.html">
-    <button class="white-text">Reserverz votre cours
-    </button>
-    </a>
-    </div>
+    
 
-    <section class="row">
+    <section class="row" id="grid-2cols">
     <div class="column1">
         <img src="../assets/images/home-alternative-profile-02.png">
     </div>
@@ -59,7 +63,7 @@
     </div>
 </section>
 
-<section class="row2">
+<section class="row2" id="grid-2cols">
     <div class="column1">
     <h2>Réservez votre cours</h2>
     <h3>Yoga Flow</h3>
@@ -78,7 +82,7 @@
     </div>
 </section>
 
-<section class="row">
+<section class="row" id="classes-col4">
     <div>
      <img src="../assets/images/yoga-park-flow-alt.png">
      <h3>Yoga flow en groupe</h3>
@@ -147,5 +151,6 @@
 
 </head>
 
+</main>
 </body>
 </html>
